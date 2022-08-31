@@ -1,0 +1,25 @@
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+**/.terraform/*
+
+**/.backup/*
+*/backup/*
+
+# Crash log files
+crash.log
+
+*/terraform.tfvars
+*/terraform.tfstate
+*/terraform.tfstate.backup
+*/.terraform
+*/mykey*
+mykey*
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
